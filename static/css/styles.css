@@ -1,0 +1,97 @@
+/* Custom styles for Provider Lookup application */
+
+/* General styling */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Card styling */
+.card {
+    border-radius: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card-header {
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+}
+
+/* Search results styling */
+.list-group-item {
+    transition: background-color 0.15s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+}
+
+/* Hero section styling */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    border-radius: 0.5rem;
+}
+
+/* Form controls */
+.form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Navbar styles */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+    margin-top: auto;
+}
+
+/* Map container */
+#map {
+    height: 300px;
+    width: 100%;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    .lead {
+        font-size: 1.1rem;
+    }
+}
+
+/* Utility classes */
+.text-break {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+/* Custom colors */
+.bg-light-blue {
+    background-color: #e6f2ff;
+}
+
+/* Card icon styling */
+.card .fa-3x {
+    color: #0d6efd;
+}
+
+/* List group item custom styling */
+.list-group-item small {
+    font-size: 85%;
+}
